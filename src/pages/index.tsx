@@ -31,6 +31,14 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link href="https://sprinkle-iris-307.notion.site/Exercise-29775913962a423bbf2e4a189a39923b" target="_blank" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
+            <h3 className="text-2xl font-bold justify-between">My Workouts &rarr;</h3>
+            <p className="mt-4 text-xl text-justify">
+              Browse through my personal weekly workouts that I follow and update everyday.
+            </p>
+          </Link>
+          
+
         </div>
       </main>
     </div>
