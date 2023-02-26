@@ -180,7 +180,6 @@ export default function BMICalculator() {
                     </div>
                 </div>
             </section>
-
         </div>
     );
 };
