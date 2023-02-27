@@ -40,7 +40,7 @@ export default function BodyFatCalculator() {
                         Weight (lbs)
                     </label>
                     <input
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-gray-700  shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                         id="weight"
                         type="number"
                         step="any"
@@ -54,7 +54,7 @@ export default function BodyFatCalculator() {
                         Waist circumference (in)
                     </label>
                     <input
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-gray-700 shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                         id="waist"
                         type="number"
                         step="any"
@@ -69,7 +69,7 @@ export default function BodyFatCalculator() {
                         Hip circumference (in)
                     </label>
                     <input
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-gray-700 shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                         id="hip"
                         type="number"
                         step="any"
@@ -83,7 +83,7 @@ export default function BodyFatCalculator() {
                         Neck circumference (in)
                     </label>
                     <input
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-gray-700 shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                         id="neck"
                         type="number"
                         step="any"
@@ -97,7 +97,7 @@ export default function BodyFatCalculator() {
                         Gender
                     </label>
                     <select
-                        className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-gray-700 shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                         id="gender"
                         value={gender}
                         onChange={(event) => setGender(event.target.value)}

@@ -30,7 +30,7 @@ export default function BMICalculator() {
                             Weight (kg)
                         </label>
                         <input
-                            className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                            className="bg-gray-700 shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                             id="weight"
                             type="number"
                             step="any"
@@ -44,7 +44,7 @@ export default function BMICalculator() {
                             Height (m)
                         </label>
                         <input
-                            className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
+                            className="bg-gray-700 shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline"
                             id="height"
                             type="number"
                             step="any"
@@ -78,8 +78,8 @@ export default function BMICalculator() {
                 </form>
 
                 <div className="bg-gray-700 rounded p-10">
-                    <table className="text-center text-white mb-2 w-full">
-                        <thead className="text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                    <table className="bg-gray-700 text-center text-white mb-2 w-full">
+                        <thead className="bg-gray-700 text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                             <tr>
                                 <th scope="col" className="px-6 py-3">Category</th>
                                 <th scope="col" className="px-6 py-3">BMI range - kg/m²</th>
