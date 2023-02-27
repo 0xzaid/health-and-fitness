@@ -22,7 +22,7 @@ function SignInScreen() {
                 router.push("/");
             });
         }
-    }, []);
+    });
 
 
     return (
