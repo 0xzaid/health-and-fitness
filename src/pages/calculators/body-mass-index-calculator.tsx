@@ -132,11 +132,11 @@ export default function BMICalculator() {
             </div>
 
 
-            <section className="bg-white dark:bg-gray-900">
+            <section className="bg-gray-900 dark:bg-gray-900">
                 <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-                    <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">What is BMI?</h2>
-                        <p className="mb-4">
+                    <div className="font-light text-gray-400 sm:text-lg dark:text-gray-400">
+                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-400 dark:text-white">What is BMI?</h2>
+                        <p className="mb-4 text-gray-400">
                             BM is used to determine whether a person has a healthy body weight based on their height and weight. BMI is used to categorize people as underweight, normal weight, overweight, or obese, and can indicate whether additional testing or action is required to maintain a healthy weight. The categories of BMI vary based on factors such as region and age.
                         </p>
                         <p>
@@ -153,10 +153,10 @@ export default function BMICalculator() {
 
             <section className="bg-white dark:bg-gray-900">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-                    <div className="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
-                        <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Risks associated with being overweight</h2>
-                        <p className="mb-4 font-light">Carrying excess weight increases the chance of developing a variety of severe medical conditions and health issues. The Centers for Disease Control and Prevention (CDC) has compiled a list of these risks, which include:</p>
-                        <ul className="list-disc mx-10 p-2">
+                    <div className="max-w-screen-lg text-gray-400 sm:text-lg dark:text-gray-400">
+                        <h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-400 dark:text-white">Risks associated with being overweight</h2>
+                        <p className="mb-4 font-light text-gray-400">Carrying excess weight increases the chance of developing a variety of severe medical conditions and health issues. The Centers for Disease Control and Prevention (CDC) has compiled a list of these risks, which include:</p>
+                        <ul className="list-disc mx-10 p-2 text-gray-400">
                             <li>Hypertension</li>
                             <li>Elevated levels of &quot;bad&quot; cholesterol (LDL) and low levels of &quot;good&quot; cholesterol (HDL)</li>
                             <li>High levels of triglycerides</li>
@@ -172,7 +172,7 @@ export default function BMICalculator() {
                             <li>Chronic pain</li>
                             <li>An increased risk of mortality when compared to those with a healthy body mass index (BMI)</li>
                         </ul>
-                        <p className="mb-4 font-medium">In general, it is recommended that individuals keep their BMI below 25 kg/m2, but it is advisable to seek medical advice to determine if any lifestyle modifications are necessary to improve overall health.</p>
+                        <p className="mb-4 font-medium text-gray-400">In general, it is recommended that individuals keep their BMI below 25 kg/m2, but it is advisable to seek medical advice to determine if any lifestyle modifications are necessary to improve overall health.</p>
                         <Link href="https://www.cdc.gov/healthyweight/assessing/bmi" target="_blank" className="inline-flex items-center text-blue-500 hover:text-blue-700">
                             Learn more
                             <svg className="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
