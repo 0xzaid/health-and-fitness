@@ -50,7 +50,7 @@ export default function Home() {
           <>
             {user ? (
               <p className="text-white mt-3 text-xl">
-                Welcome {user.displayName}!
+                Welcome, <span className="text-green-500">{user.displayName}!</span>
               </p>
             ) : (
                 <p className="text-white mt-3 text-xl">
