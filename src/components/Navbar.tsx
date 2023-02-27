@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import firebase from "../../firebase/clientApp"
+
 
 const navLinkVariants = {
     rest: {
@@ -14,6 +16,15 @@ const navLinkVariants = {
 };
 
 const Navbar = () => {
+
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+    useEffect(() => {
+        firebase.auth().onAuthStateChanged((user) => {
+            setIsLoggedIn(!!user);
+        });
+    }, []);
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -63,6 +74,16 @@ const Navbar = () => {
                             >
                                 <Link href="/contact" className="nav-link hover:text-blue-400">Contact</Link>
                             </motion.div>
+                            <motion.div
+                                variants={navLinkVariants}
+                                whileHover="hover"
+                                whileTap={{ scale: 0.9 }}
+                                className="nav-link"
+                            >
+                                <Link href="/auth" className="nav-link hover:text-blue-400">
+                                    {isLoggedIn ? 'Logout' : 'Login/Signup'}
+                                </Link>
+                            </motion.div>
                         </div>
                     </div>
                     <div className="md:hidden">
@@ -111,6 +132,9 @@ const Navbar = () => {
                     </Link>
                     <Link href="/contact" className="nav-link block border-b">
                         Contact
+                    </Link>
+                    <Link href="/auth" className="nav-link block border-b">
+                        Login/Signup
                     </Link>
                 </div>
             </motion.div>
