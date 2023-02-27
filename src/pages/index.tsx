@@ -7,11 +7,12 @@ import firebase from "../../firebase/clientApp";
 import { useAuthState } from "react-firebase-hooks/auth"
 import { useState } from 'react'
 import { motion } from "framer-motion";
+import { getAuth } from 'firebase/auth';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const [user, loading, error] = useAuthState(firebase.auth());
+  const [user, loading, error] = useAuthState(getAuth());
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
