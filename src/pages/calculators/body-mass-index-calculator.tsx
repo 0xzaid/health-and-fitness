@@ -79,10 +79,10 @@ export default function BMICalculator() {
 
                 <div className="bg-gray-700 rounded p-10">
                     <table className="bg-gray-700 text-center text-white mb-2 w-full">
-                        <thead className="bg-gray-700 text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <thead className="bg-gray-700 text-white uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                             <tr>
-                                <th scope="col" className="px-6 py-3">Category</th>
-                                <th scope="col" className="px-6 py-3">BMI range - kg/m²</th>
+                                <th scope="col" className="text-white px-6 py-3">Category</th>
+                                <th scope="col" className="text-white px-6 py-3">BMI range - kg/m²</th>
                             </tr>
                         </thead>
                         <tbody>
