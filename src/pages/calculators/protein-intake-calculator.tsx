@@ -239,8 +239,8 @@ const ProteinIntakeCalculator = () => {
                     </div>
 
                     <div className="grid grid-cols gap-4 mt-10">
-                        <Image className="rounded-lg" src="/whey-protein.jpg" alt="protein content 1" width="400" height="100" />
-                        <Image className="mt-4 lg:mt-10 rounded-lg" src="/cooked-protein.jpg" alt="protein content 2" width="400" height="100" />
+                        <Image className="rounded-lg" src="/images/whey-protein.jpg" alt="protein content 1" width="400" height="100" />
+                        <Image className="mt-4 lg:mt-10 rounded-lg" src="/images/cooked-protein.jpg" alt="protein content 2" width="400" height="100" />
                     </div>
                 </div>
                 <div className="gap-32 items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
@@ -264,8 +264,8 @@ const ProteinIntakeCalculator = () => {
                 </div>
                 <div className="py-8 px-4 ml-10 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                     <div className="grid grid-cols gap-4 mt-1">
-                        <Image className="mt-4 lg:mt-10 rounded-lg" src="/girl-eating.jpg" alt="protein content 4" width="400" height="100" />
-                        <Image className="rounded-" src="/strong-dude.jpg" alt="protein content 3" width="400" height="100" />
+                        <Image className="mt-4 lg:mt-10 rounded-lg" src="/images/girl-eating.jpg" alt="protein content 4" width="400" height="100" />
+                        <Image className="rounded-" src="/images/strong-dude.jpg" alt="protein content 3" width="400" height="100" />
                     </div>
                     <div className="font-light text-white">
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">Benefits of eating high protein</h2>
@@ -301,8 +301,8 @@ const ProteinIntakeCalculator = () => {
                     </div>
 
                     <div className="grid grid-cols gap-4 mt-10">
-                        <Image className="rounded-lg" src="/cooked-meat-and-rice.jpg" alt="protein content 5" width="400" height="100" />
-                        <Image className="mt-4 lg:mt-10 rounded-lg" src="/vegan-protein.jpg" alt="protein content 6" width="400" height="100" />
+                        <Image className="rounded-lg" src="/images/cooked-meat-and-rice.jpg" alt="protein content 5" width="400" height="100" />
+                        <Image className="mt-4 lg:mt-10 rounded-lg" src="/images/vegan-protein.jpg" alt="protein content 6" width="400" height="100" />
                     </div>
                 </div>            
             </div>
