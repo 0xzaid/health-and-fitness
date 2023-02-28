@@ -20,6 +20,11 @@ export default function Calculators() {
                     </Link>
                 </li>
                 <li>
+                    <Link href="/calculators/protein-intake-calculator" className="block py-2 px-4 rounded-lg shadow-md bg-white text-gray-900 hover:bg-blue-500 hover:text-white transition duration-300">
+                        Protein Intake
+                    </Link>
+                </li>
+                <li>
                     <Link href="/heart-rate-calculator" className="block py-2 px-4 rounded-lg shadow-md bg-white text-gray-900 hover:bg-blue-500 hover:text-white transition duration-300">
                         Heart Rate
                     </Link>
@@ -32,11 +37,6 @@ export default function Calculators() {
                 <li>
                     <Link href="/one-rep-max-calculator" className="block py-2 px-4 rounded-lg shadow-md bg-white text-gray-900 hover:bg-blue-500 hover:text-white transition duration-300">
                         One-Rep Max
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/protein-intake-calculator" className="block py-2 px-4 rounded-lg shadow-md bg-white text-gray-900 hover:bg-blue-500 hover:text-white transition duration-300">
-                        Protein Intake
                     </Link>
                 </li>
             </ul>
