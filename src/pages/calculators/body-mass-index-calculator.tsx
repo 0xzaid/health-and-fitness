@@ -127,7 +127,7 @@ export default function BMICalculator() {
 
             <div className="flex items-center justify-center">
                 <div className="animate-bounce w-6 h-6">
-                    <Image src="/down-arrow.png" width="100" height="100" alt="scroll-down"></Image>
+                    <Image src="/images/down-arrow.png" width="100" height="100" alt="scroll-down"></Image>
                 </div>
             </div>
 
@@ -145,8 +145,8 @@ export default function BMICalculator() {
                     </div>
 
                     <div className="grid grid-cols-2 gap-4 mt-8">
-                        <Image className="w-full rounded-lg" src="/alexander-redl-d3bYmnZ0ank-unsplash.jpg" alt="bmi content 1" width="600" height="500" />
-                        <Image className="mt-4 w-full lg:mt-10 rounded-lg" src="/kenny-eliason-5ddH9Y2accI-unsplash.jpg" alt="bmi content 2" width="600" height="500" />
+                        <Image className="w-full rounded-lg" src="/images/alexander-redl-d3bYmnZ0ank-unsplash.jpg" alt="bmi content 1" width="600" height="500" />
+                        <Image className="mt-4 w-full lg:mt-10 rounded-lg" src="/images/kenny-eliason-5ddH9Y2accI-unsplash.jpg" alt="bmi content 2" width="600" height="500" />
                     </div>
                 </div>
             </section>
